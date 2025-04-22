@@ -6,7 +6,6 @@ from agentkit.agent import Agent
 from agentkit.tools.hackernews import HackerNewsTool
 from agentkit.tools.reddit import RedditSearchTool
 from agentkit.tools.google import GoogleSearchTool 
-from agentkit.tools.wikipedia import WikipediaSearchTool
 
 from dotenv import load_dotenv
 load_dotenv()
@@ -21,7 +20,6 @@ st.sidebar.header("Tool Selection")
 use_hackernews = st.sidebar.checkbox("Enable HackerNews Tool", value=True)
 use_reddit = st.sidebar.checkbox("Enable Reddit Search Tool", value=True)
 use_google = st.sidebar.checkbox("Enable Google Search Tool", value=True)  # New option
-use_wikipedia = st.sidebar.checkbox("Enable Wikipedia Search Tool", value=True)
 # Sidebar: Planner settings
 st.sidebar.header("Settings")
 model_choice = st.sidebar.selectbox("Select LLM model", options=["gpt-4o", "gpt-4o-mini", "gpt-3.5-turbo"], index=0)
@@ -44,8 +42,6 @@ if run_button:
         tools.append(RedditSearchTool())
     if use_google:
         tools.append(GoogleSearchTool())
-    if use_wikipedia:
-            tools.append(WikipediaSearchTool())
 
     tool_names = [t.name for t in tools]
 

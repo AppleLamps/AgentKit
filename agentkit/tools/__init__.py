@@ -2,4 +2,4 @@
 from .hackernews import HackerNewsTool
 from .reddit import RedditSearchTool
 from .google import GoogleSearchTool
-from .wikipedia import WikipediaSearchTool 
+

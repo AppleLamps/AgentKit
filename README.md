@@ -88,7 +88,6 @@ Each tool inherits from `Tool` and implements a `.run()` method.
 - `HackerNewsTool`: Pulls top HN stories using Firebase API
 - `RedditSearchTool`: Pulls recent Reddit threads using Pushshift API
 - `GoogleSearchTool`: Uses SerpAPI to search Google
-- `WikipediaSearchTool`: Summarizes topics using the Wikipedia API (no key needed)
 
 
 > Tools return markdown-friendly string outputs and include a static marker (for testing).
