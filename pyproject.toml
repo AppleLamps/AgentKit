@@ -1,0 +1,13 @@
+[project]
+name = "agentkit"
+version = "0.1.0"
+description = "Composable, modular Python library for building AI agents with tools, memory, and streaming"
+authors = [{ name = "Apple Lamps", email = "you@example.com" }]
+dependencies = ["openai", "requests"]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["agentkit", "agentkit.tools"]
