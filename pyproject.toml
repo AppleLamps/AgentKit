@@ -3,7 +3,13 @@ name = "agentkit"
 version = "0.1.0"
 description = "Composable, modular Python library for building AI agents with tools, memory, and streaming"
 authors = [{ name = "Apple Lamps", email = "you@example.com" }]
-dependencies = ["openai", "requests"]
+dependencies = [
+    "openai",
+    "requests",
+    "supabase-py>=2.0.0",
+    "GitPython>=3.1.0",
+    "google-generativeai>=0.3.0"
+]
 
 [build-system]
 requires = ["setuptools", "wheel"]
