@@ -1,6 +1,3 @@
-<<<<<<< HEAD
-Absolutely — here’s a detailed, AI-friendly README for your AgentKit app that explains the architecture, purpose, and behavior step-by-step.
-=======
 # AgentKit
 
 **AgentKit** is a lightweight, modular Python library for building AI agents that are composable, debuggable, and developer-friendly. Inspired by the simplicity of Flask and the power of LangChain—without the bloat.
