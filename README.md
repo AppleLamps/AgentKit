@@ -11,7 +11,6 @@ LLMs are powerful, but current frameworks for building agents are often:
 - Full of “magic” abstraction
 
 **AgentKit** solves this by giving developers explicit control over models, tools, memory, and workflows—with clean syntax, plug-and-play components, and no hidden behavior.
->>>>>>> 0cc24b3d959100e9d2466f3137bce706e7136999
 
 ---
 
